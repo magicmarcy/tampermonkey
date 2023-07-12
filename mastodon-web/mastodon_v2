@@ -89,6 +89,10 @@ body {
     width: calc(100% - 55px);
 }
 
+.media-gallery__item-gifv-thumbnail {
+    transform: unset;
+}
+
 /* Hintergrundfarbe eines embedded Links */
 .status-card__content {
     background-color: #f9f9f9;
