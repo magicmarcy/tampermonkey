@@ -1,0 +1,50 @@
+// ==UserScript==
+// @name        ruhr.social CSS
+// @author      @magicmarcy@ruhr.social
+// @description Custom CSS for Mastodon with widther columns and bigger input
+// @version     0.1
+// @match       https://ruhr.social/*
+// @grant       GM_addStyle
+// @run-at      document-start
+// ==/UserScript==
+
+GM_addStyle ( `
+.compose-form .autosuggest-input,.compose-form .autosuggest-textarea,.compose-form {
+    height: 300px;
+}
+
+.columns-area__panels__pane__inner {
+    width: 485px;
+}
+
+@media screen and (min-width: 1175px) {
+    .columns-area__panels__main {
+        max-width: 800px;
+    }
+}
+
+.compose-panel {
+    width: 485px;
+}
+
+.account__header__image {
+    height: 350px;
+}
+
+.avatar .account__avatar {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.compose-form .compose-form__publish {
+    justify-content: flex-start;
+}
+
+.navigation-panel {
+    width: 275px;
+}
+
+.reply-indicator__content, .status__content {
+    font-size: 1.2em;
+    padding: 15px 0;
+` );
