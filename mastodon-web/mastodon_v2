@@ -16,7 +16,7 @@ body {
 
 /* Breite der linken Spalte für neue Toots */
 .compose-form .autosuggest-input,.compose-form .autosuggest-textarea,.compose-form {
-    height: 300px;
+    height: 150px;
 }
 
 /* linke Spalte */
@@ -131,6 +131,10 @@ body {
 
 .status-card.compact {
     margin-left: 55px;
+}
+
+.autosuggest-textarea__textarea {
+    font-size:1.2em !important;
 }
 
 ` );
