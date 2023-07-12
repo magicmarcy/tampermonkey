@@ -27,6 +27,19 @@ body {
     font-size: 1.1em;
 }
 
+.column-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.column-header__wrapper .column-header {
+    border: 1px solid #f1f1f1;
+}
+
+.tabs-bar__wrapper {
+    background: white;
+}
+
 
 /* Hauptbreite des inneren Feeds */
 @media screen and (min-width: 1175px) {
@@ -98,10 +111,13 @@ body {
 }
 
 /* Ränder einzelner Beiträge im Feed */
-.column>.scrollable,
-.status {
+.column>.scrollable {
     border: 1px solid #f1f1f1;
-    border-top-style: none;
+}
+
+.status {
+    border-top: 0;
+    border-bottom: 1px solid #f1f1f1;
 }
 
 /* Hover-Farbe eines Beitrages */
