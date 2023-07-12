@@ -65,13 +65,15 @@ body {
 .reply-indicator__content,
 .status__content {
     font-size: 1.2em;
-    padding: 15px 0;
+    padding: 15px 0 15px 55px;
 }
 
 /* Bilder im Feed in voller Höhe anzeigen */
 .media-gallery {
     height: fit-content !important;
     border-radius: 15px;
+    margin-left: 55px;
+    width: calc(100% - 55px);
 }
 
 /* Hintergrundfarbe eines embedded Links */
@@ -109,6 +111,10 @@ body {
 
 .navigation-bar__profile-edit {
     display: none;
+}
+
+.status-card.compact {
+    margin-left: 55px;
 }
 
 ` );
