@@ -91,7 +91,7 @@ body {
 
 /* Hintergrundfarbe eines embedded Links */
 .status-card__content {
-    background-color: #E4E6FB;
+    background-color: #f9f9f9;
 }
 
 /* Hover-Hintergrundfarbe eines embedded Links */
