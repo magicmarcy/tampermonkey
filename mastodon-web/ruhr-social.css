@@ -1,0 +1,135 @@
+body {
+    background: unset;
+}
+
+/* Breite der linken Spalte für neue Toots */
+.compose-form .autosuggest-input,.compose-form .autosuggest-textarea,.compose-form {
+    height: 150px;
+}
+
+/* linke Spalte */
+.columns-area__panels__pane__inner,
+.compose-panel {
+    width: 485px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.column-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.column-header__wrapper .column-header {
+    border: 1px solid #f1f1f1;
+}
+
+.tabs-bar__wrapper {
+    background: white;
+}
+
+
+/* Hauptbreite des inneren Feeds */
+@media screen and (min-width: 1175px) {
+    .columns-area__panels__main {
+       /* max-width: 700px; */
+    }
+}
+
+/* Profil-Header auf Profilseiten */
+.account__header__image {
+    height: 350px;
+}
+
+/* Profilbild auf der Profilseite */
+.avatar .account__avatar {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+/* Form mit der Textarea zum Erstellen neuer Toots */
+.compose-form .compose-form__publish {
+    justify-content: flex-start;
+}
+
+/* rechte Spalte mit Links unbd Tags */
+.navigation-panel {
+    width: 275px;
+    background-color: #F7F9F9;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* Der Text eines Toots im Feed */
+.reply-indicator__content,
+.status__content {
+    font-size: 1.2em;
+    padding: 15px 0 15px 55px;
+}
+
+/* Bilder im Feed in voller Höhe anzeigen */
+.media-gallery {
+    height: fit-content !important;
+    border-radius: 15px;
+    margin-left: 55px;
+    width: calc(100% - 55px);
+}
+
+.media-gallery__item-gifv-thumbnail {
+    transform: unset;
+}
+
+/* Hintergrundfarbe eines embedded Links */
+.status-card__content {
+    background-color: #f9f9f9;
+}
+
+/* Hover-Hintergrundfarbe eines embedded Links */
+.status-card__content:hover {
+    background-color: #f2f3fb;
+}
+
+/* Actoions eines Beitrages */
+.status__action-bar {
+    justify-content: end;
+    gap: 7px;
+}
+
+/* Runde Avatare */
+.account__avatar {
+    border-radius: 50%;
+}
+
+/* Ränder einzelner Beiträge im Feed */
+.column>.scrollable {
+    border: 1px solid #f1f1f1;
+}
+
+.status {
+    border-top: 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+/* Hover-Farbe eines Beitrages */
+.status__wrapper:hover {
+    background-color: #f9f9f9;
+}
+
+.navigation-bar__profile-edit {
+    display: none;
+}
+
+.status-card.compact {
+    margin-left: 55px;
+}
+
+.autosuggest-textarea__textarea {
+    font-size:1.2em !important;
+}
+
+.search__input,
+.search__input:focus {
+  background: none;
+}
