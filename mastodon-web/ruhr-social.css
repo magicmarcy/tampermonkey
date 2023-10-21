@@ -54,10 +54,6 @@ body.theme-mastodon-light .story {
   padding-right: 24px;
 }
 
-body.theme-mastodon-light .status {
-    border-bottom: 1px solid var(--mas-border-color);
-}
-
 .status > *:not(.status__info) {
   /* margin-left: 56px; */
 }
